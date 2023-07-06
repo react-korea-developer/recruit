@@ -1,0 +1,53 @@
+title: "[프로젝트] 프로젝트 모집제목"
+labels: ["프로젝트"]
+body:
+- type: input
+  id: company
+  attributes:
+    label: "회사명 또는 그룹명"
+    description: "사명 또는 그룹명명을 입력하세요."
+    placeholder: "예> 테스트 주식회사"
+  validations:
+    required: true
+- type: input
+  id: reception
+  attributes:
+    label: 접수방법
+    description: "접수방법을 입력하세요."
+    placeholder: "예> offer@te.st"
+  validations:
+    required: true
+- type: input
+  id: manager
+  attributes:
+    label: 담당자
+    description: "담당자를 입력하세요."
+    placeholder: "예> 홍길동"
+  validations:
+    required: true
+- type: input
+  id: contact
+  attributes:
+    label: "담당자 연락처"
+    description: "담당자 연락처를 입력하세요."
+    placeholder: "예> test@te.st"
+- type: input
+  id: period
+  attributes:
+    label: "프로젝트 기간"
+    description: "프로젝트 기간을 입력하세요."
+    placeholder: "예> 202x 하반기"
+- type: textarea
+  id: project
+  attributes:
+    label: "프로젝트 내용"
+    description: "프로젝트 내용을 입력하세요."
+  validations:
+    required: true
+- type: textarea
+  id: content
+  attributes:
+    label: "모집요강"
+    description: "모집요강을 입력하세요."
+  validations:
+    required: true
