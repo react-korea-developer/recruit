@@ -31,6 +31,12 @@ body:
     label: "담당자 연락처"
     description: "담당자 연락처를 입력하세요."
     placeholder: "예> test@te.st"
+- type: input
+  id: personnel
+  attributes:
+    label: "구인인원"
+    description: "구인인원을 입력하세요."
+    placeholder: "예> 상시모집"
 - type: textarea
   id: content
   attributes:

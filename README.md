@@ -15,3 +15,4 @@
 <br/>
 
 ## 👍🏻 채용 공고를 공유해주세요
+[공고 등록하기](https://github.com/react-korea-developer/recruit/discussions)
