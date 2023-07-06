@@ -37,6 +37,12 @@ body:
     label: "프로젝트 기간"
     description: "프로젝트 기간을 입력하세요."
     placeholder: "예> 202x 하반기"
+- type: input
+  id: personnel
+  attributes:
+    label: "모집인원"
+    description: "모집인원을 입력하세요."
+    placeholder: "예> UX 8명, 백엔드 2명"
 - type: textarea
   id: project
   attributes:
