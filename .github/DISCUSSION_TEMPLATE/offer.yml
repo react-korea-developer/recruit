@@ -1,0 +1,40 @@
+title: "[채용공고] 회사명"
+labels: ["채용공고"]
+body:
+- type: input
+  id: company
+  attributes:
+    label: 회사명
+    description: "회사명을 입력하세요."
+    placeholder: "예> 테스트 주식회사"
+  validations:
+    required: true
+- type: input
+  id: reception
+  attributes:
+    label: 접수방법
+    description: "접수방법을 입력하세요."
+    placeholder: "예> https://www.jumpit.co.kr/, offer@te.st"
+  validations:
+    required: true
+- type: input
+  id: manager
+  attributes:
+    label: 담당자
+    description: "담당자를 입력하세요."
+    placeholder: "예> 홍길동"
+  validations:
+    required: true
+- type: input
+  id: contact
+  attributes:
+    label: "담당자 연락처"
+    description: "담당자 연락처를 입력하세요."
+    placeholder: "예> test@te.st"
+- type: textarea
+  id: content
+  attributes:
+    label: 모집요강
+    description: "모집요강을 입력하세요."
+  validations:
+    required: true
